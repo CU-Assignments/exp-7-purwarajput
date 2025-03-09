@@ -206,3 +206,11 @@ public class StudentView {
     }
 }
 
+StudentApp.java
+    public class StudentApp {
+    public static void main(String[] args) {
+        StudentController controller = new StudentController();
+        StudentView view = new StudentView(controller);
+        view.displayMenu();
+    }
+}
